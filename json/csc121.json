@@ -1,0 +1,193 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+         "HyperText Markup Language",
+         "HyperText Transfer Protocol",
+         "HyperLink Text Markup",
+         "HyperLink Transfer Protocol"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is CSS used for?",
+      "options": [
+         "Styling web pages",
+         "Adding interactivity",
+         "Creating web page structure",
+         "Adding multimedia"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is JavaScript used for?",
+      "options": [
+         "Styling web pages",
+         "Adding interactivity",
+         "Creating web page structure",
+         "Adding multimedia"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is XML used for?",
+      "options": [
+         "Styling web pages",
+         "Adding interactivity",
+         "Sharing data between systems",
+         "Creating web page structure"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the `<head>` element in HTML?",
+      "options": [
+         "Define page structure",
+         "Provide metadata",
+         "Add interactivity",
+         "Style page"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the difference between HTML and XML?",
+      "options": [
+         "HTML is for styling, XML is for data",
+         "HTML is for data, XML is for styling",
+         "HTML is for web pages, XML is for data exchange",
+         "HTML is for data exchange, XML is for web pages"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the `id` attribute in HTML?",
+      "options": [
+         "Define style",
+         "Define structure",
+         "Identify element",
+         "Add interactivity"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the `stylesheet` element in XML?",
+      "options": [
+         "Define style",
+         "Define structure",
+         "Link to stylesheet",
+         "Add interactivity"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the difference between a well-formed and valid XML document?",
+      "options": [
+         "Well-formed is invalid, valid is well-formed",
+         "Well-formed meets basic syntax, valid meets schema",
+         "Well-formed meets schema, valid meets basic syntax",
+         "Well-formed is for data, valid is for styling"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is a type of CSS selector?",
+      "options": [
+         "Class selector",
+         "ID selector",
+         "Tag selector",
+         "All of the above"
+        ],
+      "answer": 3
+    },
+    {
+      "question": "What is the primary function of JavaScript in web development?",
+      "options": [
+         "To style web pages",
+         "To structure web pages",
+         "To add interactivity to web pages",
+         "To manage databases"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the difference between HTML elements and tags?",
+      "options": [
+         "HTML elements are the building blocks of a web page, while tags are used to define the structure of a web page",
+         "HTML elements are used to define the structure of a web page, while tags are the building blocks of a web page",
+         "HTML elements are used to style web pages, while tags are used to add interactivity to web pages",
+         "HTML elements are used to manage databases, while tags are used to structure web pages"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of the CSS box model?",
+      "options": [
+         "To define the layout of a web page",
+         "To define the structure of a web page",
+         "To define the styling of a web page",
+         "To define the spacing and padding of HTML elements"
+        ],
+      "answer": 3
+    },
+    {
+      "question": "What is the difference between \"var\", \"let\", and \"const\" in JavaScript?",
+      "options": [
+         "\"var\" is used to declare global variables, while \"let\" and \"const\" are used to declare local variables",
+         "\"var\" is used to declare local variables, while \"let\" and \"const\" are used to declare global variables",
+         "\"var\" is used to declare variables that can be reassigned, while \"let\" and \"const\" are used to declare variables that cannot be reassigned",
+         "\"var\" is used to declare variables that cannot be reassigned, while \"let\" and \"const\" are used to declare variables that can be reassigned"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the HTML \"div\" element?",
+      "options": [
+         "To define a paragraph of text",
+         "To define a heading",
+         "To define a division or section of a web page",
+         "To define a list"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the difference between HTML \"span\" and \"div\" elements?",
+      "options": [
+         "\"span\" is used to define a block-level element, while \"div\" is used to define an inline element",
+         "\"span\" is used to define an inline element, while \"div\" is used to define a block-level element",
+         "\"span\" is used to define a paragraph of text, while \"div\" is used to define a heading",
+         "\"span\" is used to define a heading, while \"div\" is used to define a paragraph of text"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of the CSS \"float\" property?",
+      "options": [
+         "To define the alignment of an element",
+         "To define the margin of an element",
+         "To define the padding of an element",
+         "To define the positioning of an element"
+        ],
+      "answer": 3
+    },
+    {
+      "question": "What is the purpose of the JavaScript \"console.log()\" function?",
+      "options": [
+         "To display a message to the user",
+         "To write data to a file",
+         "To read data from a file",
+         "To output data to the console for debugging purposes"
+        ],
+      "answer": 3
+    },
+    {
+      "question": "What is the purpose of the `DOCTYPE` declaration in HTML?",
+      "options": [
+         "Define style",
+         "Define structure",
+         "Declare document type",
+         "Add interactivity"
+        ],
+      "answer": 2
+    }
+]
+  

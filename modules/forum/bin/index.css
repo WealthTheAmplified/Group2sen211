@@ -1,0 +1,5 @@
+@tailwind utilities;
+
+body{
+    font-family: "Afacad", serif !important;
+}

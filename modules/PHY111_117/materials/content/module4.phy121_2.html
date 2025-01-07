@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2: Electric Fields and Gauss's Theorem</title>
+</head>
+
+<body>
+    <header>
+        <h1>Part 2: Electric Fields and Gauss's Theorem</h1>
+    </header>
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            This section delves into the concept of electric fields and the fundamental principles of Gauss's Theorem.
+            We explore the behavior of electric fields due to various charge distributions and apply Gauss's Theorem to
+            solve complex problems with symmetry.
+        </p>
+
+        <h2>Electric Fields</h2>
+        <h3>Definition and Properties</h3>
+        <p>
+            An electric field is a vector field that represents the force per unit charge exerted on a test charge at a
+            given point in space. It is defined as:
+        </p>
+        <p>
+            E = F / q
+        </p>
+        <p>
+            where:
+        </p>
+        <ul>
+            <li><em>E</em> is the electric field (N/C).</li>
+            <li><em>F</em> is the force experienced by the test charge (N).</li>
+            <li><em>q</em> is the magnitude of the test charge (C).</li>
+        </ul>
+
+        <h3>Field Lines</h3>
+        <p>
+            Electric field lines provide a visual representation of the field:
+        </p>
+        <ul>
+            <li>Lines point away from positive charges and toward negative charges.</li>
+            <li>The density of lines indicates the strength of the field.</li>
+            <li>Field lines never intersect.</li>
+        </ul>
+
+        <h3>Electric Field Due to a Point Charge</h3>
+        <p>
+            The electric field due to a single point charge <em>q</em> at a distance <em>r</em> is given by:
+        </p>
+        <p>
+            E = k * q / r<sup>2</sup>
+        </p>
+        <p>
+            where:
+        </p>
+        <ul>
+            <li><em>k</em> is Coulomb's constant (8.99 × 10<sup>9</sup> N·m<sup>2</sup>/C<sup>2</sup>).</li>
+            <li><em>q</em> is the charge.</li>
+            <li><em>r</em> is the distance from the charge.</li>
+        </ul>
+
+        <h3>Superposition Principle</h3>
+        <p>
+            For multiple charges, the net electric field at a point is the vector sum of fields due to individual
+            charges:
+        </p>
+        <p>
+            E<sub>net</sub> = E<sub>1</sub> + E<sub>2</sub> + ...
+        </p>
+
+        <h3>Field Due to Continuous Charge Distributions</h3>
+        <p>
+            For continuous charge distributions, the field is calculated by integrating over the charge distribution:
+        </p>
+        <p>
+            dE = k * dq / r<sup>2</sup>
+        </p>
+        <p>
+            Examples of continuous distributions include:
+        </p>
+        <ul>
+            <li><strong>Linear Charge Density (λ):</strong> dq = λ dx</li>
+            <li><strong>Surface Charge Density (σ):</strong> dq = σ dA</li>
+            <li><strong>Volume Charge Density (ρ):</strong> dq = ρ dV</li>
+        </ul>
+
+        <h2>Gauss's Theorem</h2>
+        <h3>Definition</h3>
+        <p>
+            Gauss's Theorem relates the electric flux through a closed surface to the charge enclosed by that surface:
+        </p>
+        <p>
+            Φ = ∮ E · dA = Q<sub>enc</sub> / ε<sub>0</sub>
+        </p>
+        <p>
+            where:
+        </p>
+        <ul>
+            <li><em>Φ</em> is the electric flux.</li>
+            <li><em>E</em> is the electric field.</li>
+            <li><em>dA</em> is the infinitesimal area element.</li>
+            <li><em>Q<sub>enc</sub></em> is the enclosed charge.</li>
+            <li><em>ε<sub>0</sub></em> is the permittivity of free space (8.85 × 10<sup>-12</sup>
+                C<sup>2</sup>/N·m<sup>2</sup>).</li>
+        </ul>
+
+        <h3>Applications of Gauss's Theorem</h3>
+        <p>
+            Gauss's Theorem is particularly useful for calculating electric fields in cases with high symmetry:
+        </p>
+
+        <h4>1. Spherical Symmetry</h4>
+        <p>
+            For a point charge or a uniformly charged sphere, the electric field is:
+        </p>
+        <p>
+            E = Q / (4π ε<sub>0</sub> r<sup>2</sup>)
+        </p>
+
+        <h4>2. Cylindrical Symmetry</h4>
+        <p>
+            For an infinitely long charged wire, the field is:
+        </p>
+        <p>
+            E = λ / (2π ε<sub>0</sub> r)
+        </p>
+        <p>
+            where <em>λ</em> is the linear charge density.
+        </p>
+
+        <h4>3. Planar Symmetry</h4>
+        <p>
+            For an infinite plane of charge, the field is:
+        </p>
+        <p>
+            E = σ / (2 ε<sub>0</sub>)
+        </p>
+        <p>
+            where <em>σ</em> is the surface charge density.
+        </p>
+
+        <h3>Electric Flux</h3>
+        <p>
+            Electric flux represents the total field passing through a surface:
+        </p>
+        <p>
+            Φ = ∮ E · dA
+        </p>
+        <p>
+            The flux depends on:
+        </p>
+        <ul>
+            <li>The field strength.</li>
+            <li>The orientation of the surface relative to the field.</li>
+            <li>The area of the surface.</li>
+        </ul>
+
+        <h3>Advanced Applications</h3>
+        <ul>
+            <li><strong>Conductors:</strong> Inside a conductor, the electric field is zero, and excess charge resides
+                on the surface.</li>
+            <li><strong>Insulators:</strong> Charge distribution is fixed, and the field depends on the permittivity of
+                the material.</li>
+            <li><strong>Faraday Cages:</strong> Use Gauss's Theorem to show that the field inside a closed conductor is
+                zero.</li>
+        </ul>
+
+        <h3>Examples</h3>
+        <p>
+            <strong>Example 1:</strong> Calculate the field outside and inside a uniformly charged spherical shell using
+            Gauss's Theorem.
+        </p>
+        <p>
+            <strong>Example 2:</strong> Derive the electric field due to an infinite plane of charge.
+        </p>
+        <p>
+            <strong>Example 3:</strong> Determine the field due to an infinitely long charged cylinder.
+        </p>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Performance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./performance.css" />
+    <script type="module" src="./performance.js"></script>
+  </head>
+  <body>
+    <div>
+      <header class="flex flex-col lg:flex-row lg:items-end justify-between">
+        <h1
+          class="font-open-sans font-bold text-[32px] leading-[44px] [leading-trim:both] [text-edge:cap] text-white"
+        >
+          Student Performance Evaluation
+        </h1>
+      </header>
+      <main>
+        <h2 id="loader" style="font-size: 43px; font-family: 'Afacad', serif">
+          Loading...
+        </h2>
+        <div
+          class="space-y-8 lg:space-y-8 w-full flex-col xl:flex-row xl:items-center xl:grid xl:grid-cols-2 xl:gap-0 gap-4 unhide-table"
+        >
+          <div
+            id="performance-table"
+            class="flex w-full lg:w-auto items-start flex-col"
+          ></div>
+          <div
+            class="flex flex-col lg:flex-row gap-4 lg:gap-0 items-center justify-evenly"
+            id="stat-cards"
+          ></div>
+        </div>
+        <hr
+          class="border-[1px_solid_white] mt-[35px] unhide-table unhide-history"
+        />
+        <div class="unhide-history">
+          <h4
+            class="font-afacad font-bold text-[24px] leading-[32px] text-primary"
+          >
+            Performance History
+          </h4>
+
+          <div class="w-full overflow-x-auto [scrollbar-width:thin]">
+            <div
+              class="bg-[#1D1F21] rounded-[12px] flex flex-col gap-y-4 min-w-[1272px]"
+            >
+              <div
+                class="font-afacad font-semibold text-[24px] leading-[32px] text-white grid grid-cols-4 text-center pt-[17px]"
+              >
+                <span>Date</span>
+                <span>Course</span>
+                <span>Scores</span>
+                <span>Remark</span>
+              </div>
+              <hr
+                class="border-[0.5px_white_solid] w-[calc(100%-20px)] mx-[10px]"
+              />
+              <div
+                class="font-afacad text-[24px] leading-[32px] text-white grid grid-cols-4 gap-y-[25px] my-[21px] text-center"
+                id="history-fields"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

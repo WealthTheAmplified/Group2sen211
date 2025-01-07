@@ -1,0 +1,231 @@
+{
+  "name": "PHY111 Quiz 1",
+  "time": 1800,
+  "questions": [
+    {
+      "question": "Which of the following quantities is a scalar?",
+      "options": ["Velocity", "Displacement", "Speed", "Force"],
+      "correct": "Speed",
+      "feedback": "Speed is a scalar quantity because it has magnitude only, while velocity, displacement, and force are vector quantities with both magnitude and direction."
+    },
+    {
+      "question": "A body starts from rest and accelerates uniformly at 5 m/s². What is its velocity after 4 seconds?",
+      "options": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+      "correct": "20 m/s",
+      "feedback": "Using the formula v = u + at, with u = 0, a = 5 m/s², and t = 4 s, the velocity is v = 0 + (5 × 4) = 20 m/s."
+    },
+    {
+      "question": "Newton’s First Law of Motion is also known as the law of:",
+      "options": ["Acceleration", "Action and Reaction", "Inertia", "Momentum"],
+      "correct": "Inertia",
+      "feedback": "Newton's First Law states that an object remains at rest or in uniform motion unless acted upon by an external force. This principle describes inertia."
+    },
+    {
+      "question": "If the mass of an object is 2 kg and it experiences a force of 10 N, what is its acceleration?",
+      "options": ["2 m/s²", "5 m/s²", "10 m/s²", "20 m/s²"],
+      "correct": "5 m/s²",
+      "feedback": "Using Newton's Second Law, F = ma, the acceleration is a = F/m = 10 N / 2 kg = 5 m/s²."
+    },
+    {
+      "question": "The work done on an object is zero if:",
+      "options": [
+        "The object moves in the direction of the force.",
+        "The object moves opposite to the direction of the force.",
+        "The object does not move.",
+        "The force acts at an angle to the displacement."
+      ],
+      "correct": "The object does not move.",
+      "feedback": "Work is calculated as the product of force and displacement in the direction of the force. If the object does not move, displacement is zero, and no work is done."
+    },
+    {
+      "question": "The energy possessed by a body due to its motion is called:",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Mechanical energy",
+        "Thermal energy"
+      ],
+      "correct": "Kinetic energy",
+      "feedback": "Kinetic energy is the energy a body has due to its motion, calculated as KE = 1/2 mv²."
+    },
+    {
+      "question": "The SI unit of power is:",
+      "options": ["Joule", "Watt", "Newton", "Pascal"],
+      "correct": "Watt",
+      "feedback": "Power is the rate of doing work, measured in watts (W). 1 W = 1 Joule/second."
+    },
+    {
+      "question": "A force of 10 N is applied to a lever at a distance of 2 m from its pivot. What is the torque?",
+      "options": ["5 Nm", "10 Nm", "20 Nm", "40 Nm"],
+      "correct": "20 Nm",
+      "feedback": "Torque is calculated as the product of force and the perpendicular distance to the pivot: Torque = 10 N × 2 m = 20 Nm."
+    },
+    {
+      "question": "The gravitational force between two masses is inversely proportional to:",
+      "options": [
+        "Their masses",
+        "The distance between them",
+        "The square of the distance between them",
+        "The square of their masses"
+      ],
+      "correct": "The square of the distance between them",
+      "feedback": "According to Newton's law of gravitation, gravitational force is inversely proportional to the square of the distance between the masses."
+    },
+    {
+      "question": "An object moves in a circular path with constant speed. Which of the following is true?",
+      "options": [
+        "Its velocity is constant.",
+        "Its acceleration is zero.",
+        "A force acts toward the center of the circle.",
+        "No force acts on the object."
+      ],
+      "correct": "A force acts toward the center of the circle.",
+      "feedback": "In circular motion, a centripetal force acts toward the center of the circle to maintain the object's curved path."
+    },
+    {
+      "question": "The SI unit of temperature is:",
+      "options": ["Celsius", "Kelvin", "Fahrenheit", "Joule"],
+      "correct": "Kelvin",
+      "feedback": "Kelvin is the SI unit of temperature. It is an absolute scale with 0 K as absolute zero."
+    },
+    {
+      "question": "Which method of heat transfer does not require a medium?",
+      "options": ["Conduction", "Convection", "Radiation", "None of the above"],
+      "correct": "Radiation",
+      "feedback": "Radiation does not require a medium as it transfers energy through electromagnetic waves."
+    },
+    {
+      "question": "A material that does not allow heat to pass through it easily is called:",
+      "options": ["Conductor", "Insulator", "Radiator", "Absorber"],
+      "correct": "Insulator",
+      "feedback": "An insulator is a material that resists the transfer of heat, such as wood or plastic."
+    },
+    {
+      "question": "Which of the following is not a state variable?",
+      "options": ["Pressure", "Volume", "Temperature", "Heat"],
+      "correct": "Heat",
+      "feedback": "State variables describe the state of a system, such as pressure, volume, and temperature. Heat is not a state variable as it depends on the process."
+    },
+    {
+      "question": "The first law of thermodynamics is a statement of the conservation of:",
+      "options": ["Energy", "Momentum", "Mass", "Charge"],
+      "correct": "Energy",
+      "feedback": "The first law of thermodynamics states that energy cannot be created or destroyed, only transferred or converted."
+    },
+    {
+      "question": "What is the heat energy required to raise the temperature of 1 kg of a substance by 1°C called?",
+      "options": [
+        "Latent heat",
+        "Specific heat capacity",
+        "Thermal conductivity",
+        "Heat capacity"
+      ],
+      "correct": "Specific heat capacity",
+      "feedback": "Specific heat capacity is the amount of heat required to raise the temperature of 1 kg of a substance by 1°C."
+    },
+    {
+      "question": "The process of heat transfer through a solid without the movement of the particles is called:",
+      "options": ["Conduction", "Convection", "Radiation", "Evaporation"],
+      "correct": "Conduction",
+      "feedback": "Conduction transfers heat through direct contact of particles without their movement."
+    },
+    {
+      "question": "The amount of heat required to convert 1 kg of a substance from liquid to vapor without changing its temperature is called:",
+      "options": [
+        "Latent heat of fusion",
+        "Latent heat of vaporization",
+        "Specific heat capacity",
+        "Heat capacity"
+      ],
+      "correct": "Latent heat of vaporization",
+      "feedback": "Latent heat of vaporization is the energy required to change 1 kg of a liquid to vapor at constant temperature."
+    },
+    {
+      "question": "Which of the following is an example of convection?",
+      "options": [
+        "Boiling water",
+        "Heating a metal rod",
+        "Sunlight reaching Earth",
+        "A hot iron"
+      ],
+      "correct": "Boiling water",
+      "feedback": "Convection is the transfer of heat by the movement of fluids, such as water boiling where hot water rises and cool water sinks."
+    },
+    {
+      "question": "Absolute zero on the Kelvin scale is equal to:",
+      "options": ["0°C", "-273°C", "-100°C", "100°C"],
+      "correct": "-273°C",
+      "feedback": "Absolute zero is -273°C, the lowest possible temperature where all molecular motion stops."
+    },
+    {
+      "question": "The time for one complete oscillation is called:",
+      "options": ["Amplitude", "Frequency", "Period", "Wavelength"],
+      "correct": "Period",
+      "feedback": "The period is the time it takes for one complete oscillation or cycle."
+    },
+    {
+      "question": "The speed of a wave is given by the product of:",
+      "options": [
+        "Wavelength and frequency",
+        "Wavelength and amplitude",
+        "Amplitude and frequency",
+        "Wavelength and period"
+      ],
+      "correct": "Wavelength and frequency",
+      "feedback": "The speed of a wave is calculated using the formula: speed = wavelength × frequency."
+    },
+    {
+      "question": "A wave in which particles of the medium move perpendicular to the direction of wave propagation is called:",
+      "options": [
+        "Longitudinal wave",
+        "Transverse wave",
+        "Mechanical wave",
+        "Electromagnetic wave"
+      ],
+      "correct": "Transverse wave",
+      "feedback": "In a transverse wave, particles of the medium move perpendicular to the wave's direction of travel, such as water waves."
+    },
+    {
+      "question": "The unit of frequency is:",
+      "options": ["Hertz", "Meter", "Second", "Joule"],
+      "correct": "Hertz",
+      "feedback": "Frequency is measured in hertz (Hz), which represents cycles per second."
+    },
+    {
+      "question": "The distance between two consecutive crests of a wave is called:",
+      "options": ["Amplitude", "Wavelength", "Frequency", "Period"],
+      "correct": "Wavelength",
+      "feedback": "The wavelength is the distance between two consecutive crests or troughs in a wave."
+    },
+    {
+      "question": "A pendulum completes 10 oscillations in 5 seconds. What is its frequency?",
+      "options": ["0.5 Hz", "2 Hz", "5 Hz", "10 Hz"],
+      "correct": "2 Hz",
+      "feedback": "Frequency is calculated as the number of oscillations per second. Here, frequency = 10 oscillations / 5 seconds = 2 Hz."
+    },
+    {
+      "question": "The pitch of a sound is determined by its:",
+      "options": ["Amplitude", "Frequency", "Speed", "Wavelength"],
+      "correct": "Frequency",
+      "feedback": "The pitch of a sound is directly related to its frequency: higher frequency means higher pitch."
+    },
+    {
+      "question": "The phenomenon of a wave bending as it passes around an obstacle is called:",
+      "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+      "correct": "Diffraction",
+      "feedback": "Diffraction is the bending of waves around obstacles or through openings."
+    },
+    {
+      "question": "If the frequency of a wave increases, its wavelength:",
+      "options": ["Increases", "Decreases", "Remains the same", "Doubles"],
+      "correct": "Decreases",
+      "feedback": "The wavelength is inversely proportional to frequency. If frequency increases, wavelength decreases."
+    },
+    {
+      "question": "Which of the following is a longitudinal wave?",
+      "options": ["Light wave", "Water wave", "Sound wave", "Radio wave"],
+      "correct": "Sound wave",
+      "feedback": "Sound waves are longitudinal, where particles of the medium vibrate parallel to the wave's direction of travel."
+    }
+  ]
+}

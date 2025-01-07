@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnify - Login</title>
+    <link rel="stylesheet" href="../modules/styles/auth.css" />
+    <link rel="stylesheet" href="../lib/vanilla-toast.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="../lib/lucide.min.js"></script>
+    <script src="../lib/vanilla-toast.js"></script>
+    <script type="module" src="../scripts/login.auth.js"></script>
+  </head>
+  <body>
+    <div
+      class="flex flex-col items-center p-0 gap-[53px] w-[320px] md:w-[428px] mx-auto py-8"
+    >
+      <div class="w-full h-[93px] flex-none order-none flex-grow-0">
+        <div
+          class="w-full h-[45px] font-poppins font-semibold text-[32px] leading-[48px] [leading-trim:both] [text-edge:cap] tracking-[0.06em] text-white text-center"
+        >
+          <span class="bg-primary text-black">Learn</span>ify.
+        </div>
+        <p
+          class="flex flex-col items-center p-0 gap-[4px] w-full h-[32px] font-afacad font-semibold text-[24px] leading-[32px] text-center text-white self-stretch"
+        >
+          Sign in to your account
+        </p>
+      </div>
+      <form
+        name="login-form"
+        class="flex flex-col items-center p-0 gap-[21px] w-full min-h-[307px] flex-none order-1 self-stretch flex-grow-0"
+      >
+        <button
+          class="flex flex-row justify-center items-center p-[9px_23px] gap-[10px] w-full h-[39px] border border-solid border-primary [box-shadow:inset_0px_0px_2px_rgba(255,255,255,0.5)] rounded-[8px] flex-none order-none self-stretch flex-grow-0 font-open-sans font-semibold text-[14px] leading-[19px] text-primary bg-transparent"
+          type="button"
+          id="google-auth"
+        >
+          <svg
+            width="22"
+            height="21"
+            viewBox="0 0 22 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.2958 8.44357H20.45V8.4H11V12.6H16.9341C16.0683 15.0449 13.7421 16.8 11 16.8C7.52082 16.8 4.7 13.9792 4.7 10.5C4.7 7.02082 7.52082 4.2 11 4.2C12.606 4.2 14.067 4.80585 15.1795 5.79547L18.1494 2.82555C16.2741 1.07782 13.7657 0 11 0C5.20137 0 0.5 4.70137 0.5 10.5C0.5 16.2986 5.20137 21 11 21C16.7986 21 21.5 16.2986 21.5 10.5C21.5 9.79597 21.4275 9.10875 21.2958 8.44357Z"
+              fill="#FFC107"
+            />
+            <path
+              d="M1.71088 5.61277L5.16065 8.14275C6.0941 5.8317 8.35475 4.2 11.0002 4.2C12.6062 4.2 14.0673 4.80585 15.1798 5.79547L18.1497 2.82555C16.2744 1.07782 13.7659 0 11.0002 0C6.96718 0 3.46963 2.27692 1.71088 5.61277Z"
+              fill="#FF3D00"
+            />
+            <path
+              d="M10.9996 21C13.7118 21 16.1761 19.9621 18.0393 18.2742L14.7896 15.5243C13.7001 16.3533 12.3686 16.8015 10.9996 16.8C8.26855 16.8 5.94963 15.0586 5.07603 12.6284L1.65198 15.2665C3.38973 18.6669 6.91878 21 10.9996 21Z"
+              fill="#4CAF50"
+            />
+            <path
+              d="M21.2958 8.44354H20.45V8.39996H11V12.6H16.9341C16.52 13.7636 15.774 14.7804 14.7884 15.5247L14.79 15.5237L18.0397 18.2736C17.8098 18.4826 21.5 15.75 21.5 10.5C21.5 9.79594 21.4275 9.10871 21.2958 8.44354Z"
+              fill="#1976D2"
+            />
+          </svg>
+          Continue with Google
+        </button>
+        <div
+          class="flex flex-row items-center p-0 gap-[24px] w-full h-[22px] flex-none order-1 self-stretch flex-grow-0 font-open-sans font-semibold text-[18px] leading-[22px] text-[#767676]"
+        >
+          <span class="divider-line"></span>
+          or
+          <span class="divider-line"></span>
+        </div>
+        <div
+          class="flex flex-col items-start p-0 gap-[39px] w-full min-h-[204px] flex-none order-2 self-stretch flex-grow-0"
+        >
+          <fieldset
+            class="flex flex-col items-start p-0 gap-[11px] w-full min-h-[87px] flex-none order-0 self-stretch flex-grow-0 border-none border-0"
+          >
+            <label for="email">
+              <i data-lucide="mail"></i>
+              <input type="email" required name="email" placeholder="Email" />
+            </label>
+            <label for="password">
+              <i data-lucide="lock-keyhole"></i>
+              <input
+                type="password"
+                required
+                name="password"
+                placeholder="Password"
+              />
+              <i class="size-[17px]" data-lucide="eye"></i>
+              <i class="size-[17px] !hidden" data-lucide="eye-off"></i>
+            </label>
+          </fieldset>
+          <div
+            class="flex flex-col items-center p-0 gap-[22px] w-full h-[78px] flex-none order-1 self-stretch flex-grow-90"
+          >
+            <button
+              type="submit"
+              class="flex flex-row items-center justify-center p-[9px_23px] gap-[10px] w-full h-[37px] bg-primary [box-shadow:inset_0px_0px_2px_rgba(255,255,255,0.5)] rounded-[8px] flex-none order-none self-stretch flex-grow-0 font-open-sans font-semibold text-[14px] leading-[19px] text-black group"
+            >
+              <span class="group-disabled:hidden">Sign In</span>
+              <i
+                data-lucide="arrow-right"
+                class="!size-[17px] !text-black group-disabled:hidden"
+              ></i>
+              <i
+                data-lucide="loader-circle"
+                class="!size-[17px] !text-white hidden group-disabled:animate-spin group-disabled:inline-block"
+              ></i>
+            </button>
+            <p
+              class="w-full h-[19px] font-open-sans font-semibold text-[14px] leading-[19px] text-center text-[#767676] flex-none order-1 self-stretch flex-grow-0"
+            >
+              <span>No account?</span>
+              <a href="./register.html" class="text-primary no-underline"
+                >Register</a
+              >
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

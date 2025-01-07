@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 4: Capacitance, Circuits, and Materials</title>
+</head>
+
+<body>
+    <header>
+        <h1>Part 4: Capacitance, Circuits, and Materials</h1>
+    </header>
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            This section extensively covers capacitance, electrical circuits, and the interaction of materials with
+            electric fields. It delves into the theory, mathematical formulations, and practical applications, providing
+            a comprehensive understanding of these crucial topics in electromagnetism.
+        </p>
+
+        <h2>Capacitance</h2>
+        <h3>Definition and Units</h3>
+        <p>
+            Capacitance is the ability of a system to store electric charge. It is defined as:
+        </p>
+        <p>
+            C = Q / V
+        </p>
+        <p>
+            where:
+        </p>
+        <ul>
+            <li><em>C</em> is the capacitance in farads (F).</li>
+            <li><em>Q</em> is the charge stored in coulombs (C).</li>
+            <li><em>V</em> is the potential difference in volts (V).</li>
+        </ul>
+
+        <h3>Types of Capacitors</h3>
+        <ul>
+            <li><strong>Parallel-Plate Capacitor:</strong> Consists of two parallel conductive plates separated by a
+                dielectric. The capacitance is given by:
+                <p>
+                    C = ε<sub>0</sub> * κ * A / d
+                </p>
+                <p>
+                    where:
+                </p>
+                <ul>
+                    <li><em>ε<sub>0</sub></em> is the permittivity of free space.</li>
+                    <li><em>κ</em> is the dielectric constant.</li>
+                    <li><em>A</em> is the area of the plates.</li>
+                    <li><em>d</em> is the separation between the plates.</li>
+                </ul>
+            </li>
+            <li><strong>Spherical Capacitor:</strong> Consists of two concentric spherical shells. The capacitance is:
+                <p>
+                    C = 4π * ε<sub>0</sub> * (r<sub>1</sub> * r<sub>2</sub>) / (r<sub>2</sub> - r<sub>1</sub>)
+                </p>
+                <p>
+                    where <em>r<sub>1</sub></em> and <em>r<sub>2</sub></em> are the radii of the inner and outer
+                    spheres.
+                </p>
+            </li>
+            <li><strong>Cylindrical Capacitor:</strong> Formed by two coaxial cylinders. The capacitance is:
+                <p>
+                    C = 2π * ε<sub>0</sub> * L / ln(r<sub>2</sub> / r<sub>1</sub>)
+                </p>
+                <p>
+                    where <em>L</em> is the length of the cylinders and <em>r<sub>1</sub></em>, <em>r<sub>2</sub></em>
+                    are the radii of the inner and outer cylinders.
+                </p>
+            </li>
+        </ul>
+
+        <h3>Energy Stored in a Capacitor</h3>
+        <p>
+            The energy stored in a charged capacitor is:
+        </p>
+        <p>
+            U = 1/2 * C * V<sup>2</sup>
+        </p>
+        <p>
+            This energy is stored in the electric field between the plates.
+        </p>
+
+        <h3>Effect of Dielectrics</h3>
+        <p>
+            Dielectrics are insulating materials that, when placed between the plates of a capacitor, increase its
+            capacitance. The dielectric constant <em>κ</em> measures this effect:
+        </p>
+        <p>
+            C = κ * C<sub>0</sub>
+        </p>
+        <p>
+            where <em>C<sub>0</sub></em> is the capacitance without the dielectric.
+        </p>
+
+        <h2>Electrical Circuits</h2>
+        <h3>Series and Parallel Capacitors</h3>
+        <ul>
+            <li><strong>Series:</strong> The total capacitance is given by:
+                <p>
+                    1 / C<sub>total</sub> = 1 / C<sub>1</sub> + 1 / C<sub>2</sub> + ...
+                </p>
+            </li>
+            <li><strong>Parallel:</strong> The total capacitance is:
+                <p>
+                    C<sub>total</sub> = C<sub>1</sub> + C<sub>2</sub> + ...
+                </p>
+            </li>
+        </ul>
+
+        <h3>RC Circuits</h3>
+        <p>
+            An RC circuit consists of a resistor and a capacitor. The charging and discharging of the capacitor follow
+            exponential behavior:
+        </p>
+        <p><strong>Charging:</strong></p>
+        <p>
+            Q(t) = Q<sub>max</sub> * (1 - e<sup>-t / RC</sup>)
+        </p>
+        <p><strong>Discharging:</strong></p>
+        <p>
+            Q(t) = Q<sub>0</sub> * e<sup>-t / RC</sup>
+        </p>
+        <p>
+            where <em>R</em> is the resistance and <em>C</em> is the capacitance.
+        </p>
+
+        <h2>Material Properties in Electric Fields</h2>
+        <h3>Conductors</h3>
+        <p>
+            Conductors allow free movement of charge. In an electric field, charges redistribute to cancel the field
+            inside the conductor. The surface of a conductor in equilibrium is an equipotential.
+        </p>
+
+        <h3>Insulators</h3>
+        <p>
+            Insulators resist the flow of charge. When placed in an electric field, their molecules polarize, creating
+            an induced field that opposes the external field.
+        </p>
+
+        <h3>Semiconductors</h3>
+        <p>
+            Semiconductors have properties between conductors and insulators. Their conductivity can be manipulated by
+            doping and is essential in modern electronics.
+        </p>
+
+        <h3>Polarization</h3>
+        <p>
+            Polarization occurs when an electric field causes a separation of charges within a material. This effect
+            enhances the material's ability to store energy and is characterized by the polarization vector <em>P</em>.
+        </p>
+
+        <h2>Applications</h2>
+        <p>
+            Capacitance and materials in electric fields have widespread applications in:
+        </p>
+        <ul>
+            <li>Energy storage (capacitors in power supplies).</li>
+            <li>Signal processing (filters in electronic circuits).</li>
+            <li>Insulation in high-voltage systems.</li>
+            <li>Semiconductor devices (transistors, diodes).</li>
+        </ul>
+    </section>
+</body>
+
+</html>

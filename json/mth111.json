@@ -1,0 +1,203 @@
+[
+    {
+      "question": "What is the logarithmic form of the equation a^x = b?",
+      "options": [
+         "x = loga(b)",
+         "x = logb(a)",
+         "x = loga(a)",
+         "x = logb(b)"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the intersection of two sets A and B?",
+      "options": [
+         "A ∪ B",
+         "A ∩ B",
+         "A - B",
+         "B - A"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the partial fraction decomposition of the expression 1 / (x^2 - 4)?",
+      "options": [
+         "1 / (2(x - 2)) - 1 / (2(x + 2))",
+         "1 / (2(x - 2)) + 1 / (2(x + 2))",
+         "1 / (x - 2) - 1 / (x + 2)",
+         "1 / (x - 2) + 1 / (x + 2)"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the value of i^2, where i is the imaginary unit?",
+      "options": [
+         "1",
+         "-1",
+         "0",
+         "undefined"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the quadratic formula for solving equations of the form ax^2 + bx + c = 0?",
+      "options": [
+         "x = (-b ± √(b^2 - 4ac)) / 2a",
+         "x = (-b ± √(b^2 + 4ac)) / 2a",
+         "x = (-b ± √(b^2 - 4ac)) / a",
+         "x = (-b ± √(b^2 + 4ac)) / a"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the binomial theorem for expanding expressions of the form (a + b)^n?",
+      "options": [
+         "(a + b)^n = ∑[n!/(k!(n-k)!)]a^(n-k)b^k",
+         "(a + b)^n = ∑[n!/(k!(n-k)!)]a^kb^(n-k)",
+         "(a + b)^n = ∑[n!/(k!(n-k)!)]a^(n-k)b^(k+1)",
+         "(a + b)^n = ∑[n!/(k!(n-k)!)]a^kb^(n-k+1)"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the value of √(4 + √16)?",
+      "options": [
+         "2 + √4",
+         "2 + √2",
+         "2√2",
+         "4"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the principle of mathematical induction?",
+      "options": [
+         "If a statement is true for n = 1, then it is true for all positive integers n.",
+         "If a statement is true for n = 1, and if it is true for n = k, then it is true for n = k + 1.",
+         "If a statement is true for all positive integers n, then it is true for n = 1.",
+         "If a statement is false for n = 1, then it is false for all positive integers n."
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the trigonometric identity for sin(a + b)?",
+      "options": [
+         "sin(a + b) = sin(a)cos(b) + cos(a)sin(b)",
+         "sin(a + b) = sin(a)cos(b) - cos(a)sin(b)",
+         "sin(a + b) = sin(a)sin(b) + cos(a)cos(b)",
+         "sin(a + b) = sin(a)sin(b) - cos(a)cos(b)"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the value of cos(2π)?",
+      "options": [
+         "0",
+         "1",
+         "-1",
+         "undefined"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of logarithms in mathematics?",
+      "options": [
+         "To simplify complex numbers",
+         "To simplify calculations involving large numbers",
+         "To solve quadratic equations",
+         "To graph trigonometric functions"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the union of two sets A and B?",
+      "options": [
+         "The set of elements that are common to both A and B",
+         "The set of elements that are in A or B or both",
+         "The set of elements that are in A but not in B",
+         "The set of elements that are in B but not in A"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of partial fractions in mathematics?",
+      "options": [
+         "To simplify complex numbers",
+         "To integrate rational functions",
+         "To solve quadratic equations",
+         "To graph trigonometric functions"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the definition of a complex number?",
+      "options": [
+         "A number that can be expressed in the form a + bi",
+         "A number that can be expressed in the form a - bi",
+         "A number that can be expressed in the form a / bi",
+         "A number that can be expressed in the form a * bi"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the quadratic formula used for?",
+      "options": [
+         "To solve linear equations",
+         "To solve quadratic equations",
+         "To solve cubic equations",
+         "To solve trigonometric equations"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the binomial theorem used for?",
+      "options": [
+         "To expand expressions of the form (a + b)^n",
+         "To expand expressions of the form (a - b)^n",
+         "To expand expressions of the form (a / b)^n",
+         "To expand expressions of the form (a * b)^n"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the definition of a surd?",
+      "options": [
+         "A number that can be expressed as a finite decimal",
+         "A number that can be expressed as a ratio of integers",
+         "A number that cannot be expressed as a finite decimal or ratio of integers",
+         "A number that can be expressed as a product of integers"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the principle of mathematical induction used for?",
+      "options": [
+         "To prove that a statement is true for all positive integers",
+         "To prove that a statement is true for all negative integers",
+         "To prove that a statement is true for all rational numbers",
+         "To prove that a statement is true for all real numbers"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the definition of the sine function in trigonometry?",
+      "options": [
+         "The ratio of the length of the opposite side to the length of the hypotenuse",
+         "The ratio of the length of the adjacent side to the length of the hypotenuse",
+         "The ratio of the length of the opposite side to the length of the adjacent side",
+         "The ratio of the length of the hypotenuse to the length of the opposite side"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the definition of the cosine function in trigonometry?",
+      "options": [
+         "The ratio of the length of the opposite side to the length of the hypotenuse",
+         "The ratio of the length of the adjacent side to the length of the hypotenuse",
+         "The ratio of the length of the opposite side to the length of the adjacent side",
+         "The ratio of the length of the hypotenuse to the length of the adjacent side"
+        ],
+      "answer": 1
+    }
+]
+  

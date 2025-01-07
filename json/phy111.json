@@ -1,0 +1,103 @@
+[
+    {
+      "question": "A 5 kg object is moving with a velocity of 2 m/s. What is its kinetic energy?",
+      "options": [
+         "10 J",
+         "20 J",
+         "30 J",
+         "40 J"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "A force of 10 N is applied to an object, causing it to move 5 m. What is the work done on the object?",
+      "options": [
+         "20 J",
+         "30 J",
+         "40 J",
+         "50 J"
+        ],
+      "answer": 3
+    },
+    {
+      "question": "An object is moving in a circular path with a radius of 2 m and a velocity of 4 m/s. What is its centripetal acceleration?",
+      "options": [
+         "2 m/s²",
+         "4 m/s²",
+         "6 m/s²",
+         "8 m/s²"
+        ],
+      "answer": 3
+    },
+    {
+      "question": "A 10 kg object is dropped from a height of 5 m. What is its potential energy at the top?",
+      "options": [
+         "50 J",
+         "100 J",
+         "150 J",
+         "200 J"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A force of 20 N is applied to an object at an angle of 30°. What is the component of the force in the x-direction?",
+      "options": [
+         "10 N",
+         "15 N",
+         "17 N",
+         "20 N"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "An object is moving with a velocity of 6 m/s and an acceleration of 2 m/s². What is its displacement after 3 s?",
+      "options": [
+         "12 m",
+         "15 m",
+         "18 m",
+         "21 m"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "A 5 kg object is attached to a spring with a spring constant of 10 N/m. What is its frequency of oscillation?",
+      "options": [
+         "0.5 Hz",
+         "1 Hz",
+         "2 Hz",
+         "3 Hz"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A force of 30 N is applied to an object, causing it to move 10 m. What is the work done on the object if the force is applied at an angle of 60°?",
+      "options": [
+         "100 J",
+         "150 J",
+         "200 J",
+         "250 J"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "An object is moving in a circular path with a radius of 3 m and a velocity of 6 m/s. What is its angular velocity?",
+      "options": [
+         "1 rad/s",
+         "2 rad/s",
+         "3 rad/s",
+         "4 rad/s"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A 10 kg object is moving with a velocity of 8 m/s. What is its momentum?",
+      "options": [
+         "40 kg m/s",
+         "50 kg m/s",
+         "60 kg m/s",
+         "80 kg m/s"
+        ],
+      "answer": 3
+    }
+]
+  

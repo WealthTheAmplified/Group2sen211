@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learnify - Login</title>
+  <link rel="stylesheet" href="../modules/styles/auth.css" />
+  <link rel="stylesheet" href="../lib/vanilla-toast.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="../lib/lucide.min.js"></script>
+  <script src="../lib/vanilla-toast.js"></script>
+  <script type="module" src="../scripts/auth.auth.js"></script>
+</head>
+
+<body>
+  <div class="flex flex-col gap-[82px] items-center w-[320px] md:w-[428px] mx-auto my-8">
+    <div class="h-[117px] w-full">
+      <div
+        class="w-full h-[45px] font-poppins font-semibold text-[32px] leading-[48px] [leading-trim:both] [text-edge:cap] tracking-[0.06em] text-white text-center">
+        <span class="bg-primary text-black">Learn</span>ify.
+      </div>
+      <div class="flex flex-col items-center p-0 gap-[4px] w-full h-[56px]">
+        <p
+          class="font-afacad font-semibold text-[24px] leading-[32px] text-center text-white flex-none order-none self-stretch flex-grow-0">
+          Almost there!
+        </p>
+        <p
+          class="font-open-sans font-light text-[15px] leading-[20px] text-center text-white flex-none order-1 self-stretch flex-grow-0">
+          Finish setting up your profile for the complete experience
+        </p>
+      </div>
+    </div>
+    <form name="auth-form" class="flex flex-col items-center p-0 gap-[21px] w-full min-h-[261px]">
+      <fieldset
+        class="flex flex-col items-start p-0 gap-[11px] w-full flex-none order-0 self-stretch flex-grow-0 border-none border-0">
+        <label for="first-name">
+          <input type="text" name="first-name" placeholder="First Name" required />
+        </label>
+        <label for="last-name">
+          <input type="text" name="last-name" required placeholder="Last Name" />
+        </label>
+        <label for="reg">
+          <input type="text" name="reg" required placeholder="Reg. No." minlength="12" />
+        </label>
+      </fieldset>
+      <div
+        class="flex flex-col items-center p-0 gap-[22px] w-full h-[78px] flex-none order-1 self-stretch flex-grow-90">
+        <button type="submit"
+          class="flex flex-row items-center justify-center p-[9px_23px] gap-[10px] w-full h-[37px] bg-primary [box-shadow:inset_0px_0px_2px_rgba(255,255,255,0.5)] rounded-[8px] flex-none order-none self-stretch flex-grow-0 font-open-sans font-semibold text-[14px] leading-[19px] text-black group">
+          <span class="group-disabled:hidden">Finish</span>
+          <i data-lucide="arrow-right" class="!size-[17px] !text-black group-disabled:hidden"></i>
+          <i data-lucide="loader-circle"
+            class="!size-[17px] !text-white hidden group-disabled:animate-spin group-disabled:inline-block"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

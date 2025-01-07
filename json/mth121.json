@@ -1,0 +1,203 @@
+[
+    {
+      "question": "Evaluate the limit: lim (x→0) (sin(x) / x)",
+      "options": [
+         "0", 
+         "1", 
+         "π", 
+         "e"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "Find the derivative of the function: f(x) = (3x² + 2x - 5) / (x² + 1)",
+      "options": [
+         "f'(x) = (6x + 2) / (x² + 1)", 
+         "f'(x) = (6x + 2) / (2x + 1)", 
+         "f'(x) = (6x - 2) / (x² + 1)", 
+         "f'(x) = (6x - 2) / (2x - 1)"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "Evaluate the integral: ∫(x² + 2x - 3) dx",
+      "options": [
+         "(x³ / 3) + (x²) - (3x) + C", 
+         "(x³ / 3) + (x²) + (3x) + C", 
+         "(x³ / 3) - (x²) + (3x) + C", 
+         "(x³ / 3) - (x²) - (3x) + C"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "Solve the equation: x³ - 2x² - 5x + 6 = 0",
+      "options": [
+         "x = -1, x = 2, x = 3", 
+         "x = -1, x = 1, x = 6", 
+         "x = 1, x = 2, x = 3", 
+         "x = -2, x = 1, x = 3"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "Find the area under the curve: y = x², from x = 0 to x = 4",
+      "options": [
+         "64/3", 
+         "32/3", 
+         "16/3", 
+         "8/3"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "Evaluate the limit: lim (x→∞) (x² / (x² + 1))",
+      "options": [
+         "0", 
+         "1", 
+         "π", 
+         "e"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "Find the derivative of the function: f(x) = e^(2x)",
+      "options": [
+         "f'(x) = 2e^(2x)", 
+         "f'(x) = e^(2x)", 
+         "f'(x) = 2e^x", 
+         "f'(x) = e^x"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "Solve the equation: x² + 4x - 8 = 0",
+      "options": [
+         "x = -2 ± √6", 
+         "x = -2 ± √2", 
+         "x = 2 ± √6", 
+         "x = 2 ± √2"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "Find the area between the curves: y = x² and y = x, from x = 0 to x = 2",
+      "options": [
+         "2/3", 
+         "1/3", 
+         "1/6", 
+         "1/12"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "Evaluate the integral: ∫(e^x / (e^x + 1)) dx",
+      "options": [
+         "ln|e^x + 1| + C", 
+         "ln|e^x - 1| + C", 
+         "e^x / (e^x + 1) + C", 
+         "e^x / (e^x - 1) + C"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary purpose of the concept of a limit in calculus?",
+      "options": [
+         "To define the derivative of a function", 
+         "To define the continuity of a function", 
+         "To define the integral of a function", 
+         "To study the behavior of a function as the input values approach a specific point"
+        ],
+      "answer": 3
+    },
+    {
+      "question": "Which of the following statements about continuity is true?",
+      "options": [
+         "A function can be continuous at a point without being defined at that point", 
+         "A function can be continuous at a point even if it is not differentiable at that point", 
+         "A function must be defined at a point in order to be continuous at that point", 
+         "A function must be differentiable at a point in order to be continuous at that point"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the definition of the derivative of a function f(x) at a point x=a?",
+      "options": [
+         "The limit as h approaches 0 of [f(a+h) - f(a)]/h", 
+         "The limit as h approaches 0 of [f(a+h) + f(a)]/h", 
+         "The limit as h approaches 0 of [f(a+h) - f(a)]/a", 
+         "The limit as h approaches 0 of [f(a+h) + f(a)]/a"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the power rule of differentiation?",
+      "options": [
+         "If f(x) = x^n, then f'(x) = nx^(n-1)", 
+         "If f(x) = x^n, then f'(x) = nx^(n+1)", 
+         "If f(x) = x^n, then f'(x) = (n+1)x^n", 
+         "If f(x) = x^n, then f'(x) = (n-1)x^n"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the fundamental theorem of calculus?",
+      "options": [
+         "The derivative of an integral is equal to the original function", 
+         "The integral of a derivative is equal to the original function", 
+         "The derivative of a sum is equal to the sum of the derivatives", 
+         "The integral of a product is equal to the product of the integrals"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the definition of a definite integral?",
+      "options": [
+         "The limit as n approaches infinity of the sum of the areas of n rectangles", 
+         "The limit as n approaches infinity of the sum of the lengths of n line segments", 
+         "The limit as n approaches infinity of the sum of the volumes of n solids", 
+         "The limit as n approaches infinity of the sum of the areas of n trapezoids"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the substitution rule of integration?",
+      "options": [
+         "If u = g(x), then ∫f(u)du = ∫f(g(x))g'(x)dx", 
+         "If u = g(x), then ∫f(u)du = ∫f(g(x))/g'(x)dx", 
+         "If u = g(x), then ∫f(u)du = ∫f(g(x))dx", 
+         "If u = g(x), then ∫f(u)du = ∫f(g(x))g(x)dx"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the definition of an improper integral?",
+      "options": [
+         "An integral with an infinite limit of integration", 
+         "An integral with a discontinuous integrand", 
+         "An integral with a non-elementary antiderivative", 
+         "An integral with a multivariable integrand"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of integration by parts?",
+      "options": [
+         "To integrate functions that can be written as a product of two functions", 
+         "To integrate functions that can be written as a sum of two functions", 
+         "To integrate functions that can be written as a difference of two functions", 
+         "To integrate functions that can be written as a quotient of two functions"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the definition of a parametric integral?",
+      "options": [
+         "An integral that is evaluated using a parameter", 
+         "An integral that is evaluated using a substitution", 
+         "An integral that is evaluated using integration by parts", 
+         "An integral that is evaluated using a numerical method"
+        ],
+      "answer": 0
+    }
+]
+  

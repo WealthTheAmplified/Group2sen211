@@ -1,0 +1,113 @@
+.float-right{
+  float: right;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.border-\[0\.4px\]{
+  border-width: 0.4px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
+.border-\[rgb\(131\2c 130\2c 130\)\]{
+  border-color: rgb(131,130,130);
+}
+
+.bg-\[\#242728\]{
+  background-color: #242728;
+}
+
+.bg-black{
+  background-color: #000;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
+}
+
+.pb-\[50px\]{
+  padding-bottom: 50px;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
+}
+
+.pt-3{
+  padding-top: 0.75rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.text-\[1\.2rem\]{
+  font-size: 1.2rem;
+}
+
+.text-\[1\.45rem\]{
+  font-size: 1.45rem;
+}
+
+.text-\[1\.4rem\]{
+  font-size: 1.4rem;
+}
+
+.text-\[1\.7rem\]{
+  font-size: 1.7rem;
+}
+
+.text-white{
+  color: #fff;
+}
+
+body{
+  font-family: "Afacad", serif !important;
+}
+
+@media (min-width: 1024px){
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:pt-5{
+    padding-top: 1.25rem;
+  }
+}

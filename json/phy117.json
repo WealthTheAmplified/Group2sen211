@@ -1,0 +1,202 @@
+[
+    {
+      "question": "What is the primary characteristic of simple harmonic motion?",
+      "options": [
+         "Increasing amplitude over time", 
+         "Decreasing amplitude over time", 
+         "Constant amplitude and frequency", 
+         "Variable frequency and amplitude"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of a compound pendulum in physics experiments?",
+      "options": [
+         "To demonstrate the concept of simple harmonic motion", 
+         "To measure the moment of inertia of an object", 
+         "To study the effects of air resistance on motion", 
+         "To demonstrate the concept of conservation of energy"],
+      "answer": 1
+    },
+    {
+      "question": "What is the difference between a conductor and an insulator in terms of electric charge?",
+      "options": [
+         "A conductor allows electric charge to flow through it, while an insulator does not", 
+         "A conductor does not allow electric charge to flow through it, while an insulator does", 
+         "A conductor and an insulator have the same properties in terms of electric charge", 
+         "A conductor and an insulator are types of electric charge"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "A 2 kg block is attached to a horizontal, massless spring with a spring constant of 100 N/m. The block is displaced from its equilibrium position by 0.2 m and then released. What is the maximum velocity of the block?",
+      "options": [
+         "2 m/s", 
+         "4 m/s", 
+         "6 m/s", 
+         "8 m/s"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A compound pendulum has a moment of inertia of 0.5 kg m² and a distance from the pivot to the center of mass of 0.2 m. If the pendulum is released from rest, what is its period of oscillation?",
+      "options": [
+         "1 s", 
+         "2 s", 
+         "3 s", 
+         "4 s"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A 10 μC charge is placed on a conductor. What is the electric potential at a distance of 0.5 m from the charge?",
+      "options": [
+         "100 V", 
+         "200 V", 
+         "300 V", 
+         "400 V"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A 100 g sample of a substance has a specific heat capacity of 0.5 kJ/kg°C. If 200 J of heat energy is added to the sample, what is the resulting temperature change?",
+      "options": [
+         "1°C", 
+         "2°C", 
+         "3°C", 
+         "4°C"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A 2 kg block is attached to a vertical, massless spring with a spring constant of 50 N/m. The block is displaced from its equilibrium position by 0.1 m and then released. What is the maximum kinetic energy of the block?",
+      "options": [
+         "10 J", 
+         "20 J", 
+         "30 J", 
+         "40 J"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "A simple harmonic oscillator has a frequency of 2 Hz and an amplitude of 0.5 m. What is the angular frequency of the oscillator?",
+      "options": [
+         "1 rad/s", 
+         "2 rad/s", 
+         "4 rad/s", 
+         "8 rad/s"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "A 500 g block is attached to a horizontal, massless spring with a spring constant of 200 N/m. The block is displaced from its equilibrium position by 0.3 m and then released. What is the maximum acceleration of the block?",
+      "options": [
+         "2 m/s²", 
+         "4 m/s²", 
+         "6 m/s²", 
+         "8 m/s²"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What is the defining characteristic of simple harmonic motion?",
+      "options": [
+         "Constant acceleration", 
+         "Constant velocity", 
+         "Periodic motion", 
+         "Zero net force"
+        ],
+      "answer": 2
+    },
+    {
+      "question": "What type of pendulum consists of a rigid body oscillating about a fixed point?",
+      "options": [
+         "Simple pendulum", 
+         "Compound pendulum", 
+         "Physical pendulum", 
+         "Torsional pendulum"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the unit of electric charge?",
+      "options": [
+         "Coulomb (C)", 
+         "Ampere (A)", 
+         "Volt (V)", 
+         "Ohm (Ω)"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What property of a material describes its ability to return to its original shape after deformation?",
+      "options": [
+         "Elasticity", 
+         "Plasticity", 
+         "Viscosity", 
+         "Conductivity"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is specific heat capacity?",
+      "options": [
+         "Energy required to change temperature of unit mass by 1°C", 
+         "Energy required to change temperature of unit volume by 1°C", 
+         "Energy required to change state of unit mass", 
+         "Energy required to change state of unit volume"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What type of energy transfer occurs during heating or cooling?",
+      "options": [
+         "Mechanical", 
+         "Thermal", 
+         "Electrical", 
+         "Radiative"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What is the equation for force and displacement in an elastic material?",
+      "options": [
+         "F = kx", 
+         "F = -kx", 
+         "F = k/x", 
+         "F = -k/x"
+        ],
+      "answer": 1
+    },
+    {
+      "question": "What type of pendulum consists of a point mass attached to a massless string?",
+      "options": [
+         "Simple pendulum", 
+         "Compound pendulum", 
+         "Physical pendulum", 
+         "Torsional pendulum"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What is the unit of electrical resistance?",
+      "options": [
+         "Ohm (Ω)", 
+         "Volt (V)", 
+         "Ampere (A)", 
+         "Coulomb (C)"
+        ],
+      "answer": 0
+    },
+    {
+      "question": "What property of a material describes its ability to conduct heat?",
+      "options": [
+         "Thermal conductivity", 
+         "Electrical conductivity", 
+         "Mechanical conductivity", 
+         "Radiative conductivity"
+        ],
+      "answer": 0
+    }
+]
+  
