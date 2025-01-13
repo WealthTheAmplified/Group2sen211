@@ -42,13 +42,8 @@
             </ul>
         </nav>
 
-        <div class="hamburger showOnMobile" onclick="showNav()">
+        <div class="hamburger">
             <div></div>
-            <div></div>
-            <div></div>
-        </div>
-
-        <div class="reverse-hamburger" onclick="hideNav()">
             <div></div>
             <div></div>
         </div>
@@ -162,6 +157,19 @@
         </span>
       </p>
     </div>
+
+    <script>
+        
+      const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () =>{
+navLinks.classList.toggle('active');
+hamburger.classList.toggle('active');
+
+});
+      
+  </script>
 
   </body>
 </html>
